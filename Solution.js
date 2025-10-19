@@ -15,7 +15,6 @@ class TopVotedCandidate {
      * @param {number[]}
      */
     createTimelineTopVotedCandidates(persons) {
-
         let topVotedCandidate = 0;
         let votesForTopVotedCandidate = 0;
         const votesPerCandidate = new Array(persons.length).fill(0);
