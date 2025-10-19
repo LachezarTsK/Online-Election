@@ -10,7 +10,6 @@ public class TopVotedCandidate {
     }
 
     private int[] createTimelineTopVotedCandidates(int[] persons) {
-
         int topVotedCandidate = 0;
         int votesForTopVotedCandidate = 0;
         int[] votesPerCandidate = new int[persons.length];
